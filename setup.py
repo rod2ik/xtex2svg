@@ -5,7 +5,7 @@ from setuptools import setup
 username = os.getenv('TWINE_USERNAME')
 password = os.getenv('TWINE_PASSWORD')
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 GIT_MESSAGE_FOR_THIS_VERSION ="""Initial Commit
 """
 
@@ -37,7 +37,7 @@ setup(
     name="xtex2svg",
     version=VERSION,
     py_modules=["xtex2svg"],
-    scripts=["bin/xtex2svg"],
+    scripts=["xtex2svg"],
     # install_requires=['Markdown>=2.3.1'],
     author="Rodrigo Schwencke",
     author_email="rod2ik.dev@gmail.com",
